@@ -1,1 +1,33 @@
-	
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tip Calculator</title>
+		<link rel="icon" href="favicon/icon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Tip Calculator</h1>
+			<div class="bil-amt">
+				<label for="bill-amt">Bill Amount: </label>
+				<input type="number" name="bill-amt" id="bill" />
+			</div>
+			<div class="tip-perc">
+				<label for="tip-amt">Tip Percentage: </label>
+				<input type="number" name="tip-amt" id="tip" />
+			</div>
+			<button id="btn">Calculate</button>
+			<br>
+			<label for="total" class="total">Total: </label>
+			<span id="total"></span>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
